@@ -1,8 +1,11 @@
 import { Sequelize } from "sequelize";
 
-const sequelize = new Sequelize("database", "username", "password", {
+const sequelize = new Sequelize({
   host: "localhost",
   dialect: "mysql",
+  port: 33061,
+  username: "root",
+  password: "root",
 });
 
 const start = async () => {

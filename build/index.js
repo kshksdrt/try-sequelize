@@ -10,9 +10,12 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const sequelize_1 = require("sequelize");
-const sequelize = new sequelize_1.Sequelize("database", "username", "password", {
+const sequelize = new sequelize_1.Sequelize({
     host: "localhost",
     dialect: "mysql",
+    port: 33061,
+    username: "root",
+    password: "root",
 });
 const start = () => __awaiter(void 0, void 0, void 0, function* () {
     try {
