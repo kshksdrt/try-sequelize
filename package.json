@@ -1,5 +1,5 @@
 {
-  "name": "try-type-orm",
+  "name": "try-sequelize",
   "packageManager": "yarn@3.3.0",
   "scripts": {
     "build": "tsc",
