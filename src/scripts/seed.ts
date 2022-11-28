@@ -1,5 +1,5 @@
 import { start } from "..";
-import { UserModel } from "../models";
+import { UserModel } from "../UserModel";
 
 export const seed = async () => {
   await start();
