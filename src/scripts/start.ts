@@ -1,8 +1,10 @@
 import { start } from "..";
-import { UserModel } from "../UserModel";
+import { Book } from "../models/BookModel.js";
+import { User } from "../models/UserModel.js";
 
 (async () => {
   await start();
-  const newLocal = await UserModel.findAll();
-  console.log(newLocal.map((n) => n.toJSON()));
+  const users = await User.findAll();
+  const books = await Book.findAll();
+  console.log({ users: users.map((n) => n.toJSON()), books });
 })();

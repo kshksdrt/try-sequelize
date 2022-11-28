@@ -14,13 +14,15 @@ export const connectSequelize = async (): Promise<Sequelize> => {
   return sequelize;
 };
 
-export const start = async () => {
+export const start = async (): Promise<Sequelize | null> => {
   try {
     const sequelize = await connectSequelize();
     console.log("Connection has been established successfully.");
     initModels(sequelize);
     console.log("Models have been created.");
+    return sequelize;
   } catch (error) {
     console.error("Unable to connect to the database:", error);
+    return null;
   }
 };

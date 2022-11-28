@@ -8,7 +8,7 @@ export type UserAttributes = {
 
 export type UserCreationAttributes = Optional<UserAttributes, "id">;
 
-export class UserModel extends Model<UserAttributes, UserCreationAttributes> {
+export class User extends Model<UserAttributes, UserCreationAttributes> {
   declare firstName: string;
   declare lastName: string;
 }

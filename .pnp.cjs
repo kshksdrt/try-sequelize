@@ -12,14 +12,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
     ],\
     "dependencyTreeRoots": [\
       {\
-        "name": "try-type-orm",\
+        "name": "try-sequelize",\
         "reference": "workspace:."\
       }\
     ],\
     "enableTopLevelFallback": true,\
     "ignorePatternData": "(^(?:\\\\.yarn\\\\/sdks(?:\\\\/(?!\\\\.{1,2}(?:\\\\/|$))(?:(?:(?!(?:^|\\\\/)\\\\.{1,2}(?:\\\\/|$)).)*?)|$))$)",\
     "fallbackExclusionList": [\
-      ["try-type-orm", ["workspace:."]]\
+      ["try-sequelize", ["workspace:."]]\
     ],\
     "fallbackPool": [\
     ],\
@@ -28,10 +28,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
-            ["@sequelize/core", "virtual:f835817f5e49f2361bdb3f3248fdfdc63fa7381667458580d4ab71d17be54af8d7532ec9dfe800ed2e8efd202a0a785cb568c3e0ad1e9287120c98d641e33c37#npm:7.0.0-alpha.19"],\
+            ["@sequelize/core", "virtual:e44490ca4ec817bea45ade3c8fa1553db53fdeb34632ae83c1aa281cb5e2fb5cf6fb4f169d49fbccd30f607b3ebf8591f14f435788190991549e6aaaf6d02e1c#npm:7.0.0-alpha.19"],\
             ["@types/node", "npm:18.11.9"],\
             ["mysql2", "npm:2.3.3"],\
-            ["sequelize", "virtual:f835817f5e49f2361bdb3f3248fdfdc63fa7381667458580d4ab71d17be54af8d7532ec9dfe800ed2e8efd202a0a785cb568c3e0ad1e9287120c98d641e33c37#npm:6.25.8"],\
+            ["sequelize", "virtual:e44490ca4ec817bea45ade3c8fa1553db53fdeb34632ae83c1aa281cb5e2fb5cf6fb4f169d49fbccd30f607b3ebf8591f14f435788190991549e6aaaf6d02e1c#npm:6.25.8"],\
             ["tslib", "npm:2.4.1"],\
             ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=d73830"]\
           ],\
@@ -46,10 +46,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:f835817f5e49f2361bdb3f3248fdfdc63fa7381667458580d4ab71d17be54af8d7532ec9dfe800ed2e8efd202a0a785cb568c3e0ad1e9287120c98d641e33c37#npm:7.0.0-alpha.19", {\
-          "packageLocation": "./.yarn/__virtual__/@sequelize-core-virtual-5e81c3fc38/0/cache/@sequelize-core-npm-7.0.0-alpha.19-0ba684cbc2-dfeabf4e5f.zip/node_modules/@sequelize/core/",\
+        ["virtual:e44490ca4ec817bea45ade3c8fa1553db53fdeb34632ae83c1aa281cb5e2fb5cf6fb4f169d49fbccd30f607b3ebf8591f14f435788190991549e6aaaf6d02e1c#npm:7.0.0-alpha.19", {\
+          "packageLocation": "./.yarn/__virtual__/@sequelize-core-virtual-a3a961925d/0/cache/@sequelize-core-npm-7.0.0-alpha.19-0ba684cbc2-dfeabf4e5f.zip/node_modules/@sequelize/core/",\
           "packageDependencies": [\
-            ["@sequelize/core", "virtual:f835817f5e49f2361bdb3f3248fdfdc63fa7381667458580d4ab71d17be54af8d7532ec9dfe800ed2e8efd202a0a785cb568c3e0ad1e9287120c98d641e33c37#npm:7.0.0-alpha.19"],\
+            ["@sequelize/core", "virtual:e44490ca4ec817bea45ade3c8fa1553db53fdeb34632ae83c1aa281cb5e2fb5cf6fb4f169d49fbccd30f607b3ebf8591f14f435788190991549e6aaaf6d02e1c#npm:7.0.0-alpha.19"],\
             ["@types/debug", "npm:4.1.7"],\
             ["@types/ibm_db", null],\
             ["@types/inflection", "npm:1.13.0"],\
@@ -63,7 +63,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/tedious", null],\
             ["@types/validator", "npm:13.7.10"],\
             ["dayjs", "npm:1.11.6"],\
-            ["debug", "virtual:5e81c3fc38898d7b7be69296b27687e53ffd6b8bdd7a1f3092fc0f92af254f3b69823815a68a7382bd29c7ab12c9a9359103a5336e796e3c7ac04a6b188e27cf#npm:4.3.4"],\
+            ["debug", "virtual:a3a961925d3a267451e559e02b631289444d2caa24d4b8abe9426af686094c26f04f83e13347d3fccdb618317730f7ec65bc8762716f7a4524a76450b178cd19#npm:4.3.4"],\
             ["dottie", "npm:2.0.2"],\
             ["ibm_db", null],\
             ["inflection", "npm:1.13.4"],\
@@ -172,10 +172,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:5e81c3fc38898d7b7be69296b27687e53ffd6b8bdd7a1f3092fc0f92af254f3b69823815a68a7382bd29c7ab12c9a9359103a5336e796e3c7ac04a6b188e27cf#npm:4.3.4", {\
-          "packageLocation": "./.yarn/__virtual__/debug-virtual-63747c15e4/0/cache/debug-npm-4.3.4-4513954577-3dbad3f94e.zip/node_modules/debug/",\
+        ["virtual:a3a961925d3a267451e559e02b631289444d2caa24d4b8abe9426af686094c26f04f83e13347d3fccdb618317730f7ec65bc8762716f7a4524a76450b178cd19#npm:4.3.4", {\
+          "packageLocation": "./.yarn/__virtual__/debug-virtual-5693841f68/0/cache/debug-npm-4.3.4-4513954577-3dbad3f94e.zip/node_modules/debug/",\
           "packageDependencies": [\
-            ["debug", "virtual:5e81c3fc38898d7b7be69296b27687e53ffd6b8bdd7a1f3092fc0f92af254f3b69823815a68a7382bd29c7ab12c9a9359103a5336e796e3c7ac04a6b188e27cf#npm:4.3.4"],\
+            ["debug", "virtual:a3a961925d3a267451e559e02b631289444d2caa24d4b8abe9426af686094c26f04f83e13347d3fccdb618317730f7ec65bc8762716f7a4524a76450b178cd19#npm:4.3.4"],\
             ["@types/supports-color", null],\
             ["ms", "npm:2.1.2"],\
             ["supports-color", null]\
@@ -398,10 +398,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:f835817f5e49f2361bdb3f3248fdfdc63fa7381667458580d4ab71d17be54af8d7532ec9dfe800ed2e8efd202a0a785cb568c3e0ad1e9287120c98d641e33c37#npm:6.25.8", {\
-          "packageLocation": "./.yarn/__virtual__/sequelize-virtual-295115397d/0/cache/sequelize-npm-6.25.8-73ac6c564d-d76111e634.zip/node_modules/sequelize/",\
+        ["virtual:e44490ca4ec817bea45ade3c8fa1553db53fdeb34632ae83c1aa281cb5e2fb5cf6fb4f169d49fbccd30f607b3ebf8591f14f435788190991549e6aaaf6d02e1c#npm:6.25.8", {\
+          "packageLocation": "./.yarn/__virtual__/sequelize-virtual-1304a3eec8/0/cache/sequelize-npm-6.25.8-73ac6c564d-d76111e634.zip/node_modules/sequelize/",\
           "packageDependencies": [\
-            ["sequelize", "virtual:f835817f5e49f2361bdb3f3248fdfdc63fa7381667458580d4ab71d17be54af8d7532ec9dfe800ed2e8efd202a0a785cb568c3e0ad1e9287120c98d641e33c37#npm:6.25.8"],\
+            ["sequelize", "virtual:e44490ca4ec817bea45ade3c8fa1553db53fdeb34632ae83c1aa281cb5e2fb5cf6fb4f169d49fbccd30f607b3ebf8591f14f435788190991549e6aaaf6d02e1c#npm:6.25.8"],\
             ["@types/debug", "npm:4.1.7"],\
             ["@types/ibm_db", null],\
             ["@types/mariadb", null],\
@@ -413,7 +413,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/sqlite3", null],\
             ["@types/tedious", null],\
             ["@types/validator", "npm:13.7.10"],\
-            ["debug", "virtual:5e81c3fc38898d7b7be69296b27687e53ffd6b8bdd7a1f3092fc0f92af254f3b69823815a68a7382bd29c7ab12c9a9359103a5336e796e3c7ac04a6b188e27cf#npm:4.3.4"],\
+            ["debug", "virtual:a3a961925d3a267451e559e02b631289444d2caa24d4b8abe9426af686094c26f04f83e13347d3fccdb618317730f7ec65bc8762716f7a4524a76450b178cd19#npm:4.3.4"],\
             ["dottie", "npm:2.0.2"],\
             ["ibm_db", null],\
             ["inflection", "npm:1.13.4"],\
@@ -494,15 +494,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
-      ["try-type-orm", [\
+      ["try-sequelize", [\
         ["workspace:.", {\
           "packageLocation": "./",\
           "packageDependencies": [\
-            ["try-type-orm", "workspace:."],\
-            ["@sequelize/core", "virtual:f835817f5e49f2361bdb3f3248fdfdc63fa7381667458580d4ab71d17be54af8d7532ec9dfe800ed2e8efd202a0a785cb568c3e0ad1e9287120c98d641e33c37#npm:7.0.0-alpha.19"],\
+            ["try-sequelize", "workspace:."],\
+            ["@sequelize/core", "virtual:e44490ca4ec817bea45ade3c8fa1553db53fdeb34632ae83c1aa281cb5e2fb5cf6fb4f169d49fbccd30f607b3ebf8591f14f435788190991549e6aaaf6d02e1c#npm:7.0.0-alpha.19"],\
             ["@types/node", "npm:18.11.9"],\
             ["mysql2", "npm:2.3.3"],\
-            ["sequelize", "virtual:f835817f5e49f2361bdb3f3248fdfdc63fa7381667458580d4ab71d17be54af8d7532ec9dfe800ed2e8efd202a0a785cb568c3e0ad1e9287120c98d641e33c37#npm:6.25.8"],\
+            ["sequelize", "virtual:e44490ca4ec817bea45ade3c8fa1553db53fdeb34632ae83c1aa281cb5e2fb5cf6fb4f169d49fbccd30f607b3ebf8591f14f435788190991549e6aaaf6d02e1c#npm:6.25.8"],\
             ["tslib", "npm:2.4.1"],\
             ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=d73830"]\
           ],\

@@ -349,9 +349,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"try-type-orm@workspace:.":
+"try-sequelize@workspace:.":
   version: 0.0.0-use.local
-  resolution: "try-type-orm@workspace:."
+  resolution: "try-sequelize@workspace:."
   dependencies:
     "@sequelize/core": ^7.0.0-alpha.10
     "@types/node": ^18.11.9

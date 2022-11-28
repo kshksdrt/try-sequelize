@@ -31,9 +31,11 @@ const start = () => __awaiter(void 0, void 0, void 0, function* () {
         console.log("Connection has been established successfully.");
         (0, models_1.initModels)(sequelize);
         console.log("Models have been created.");
+        return sequelize;
     }
     catch (error) {
         console.error("Unable to connect to the database:", error);
+        return null;
     }
 });
 exports.start = start;
