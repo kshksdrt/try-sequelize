@@ -3,8 +3,10 @@
   "packageManager": "yarn@3.3.0",
   "scripts": {
     "build": "tsc",
-    "serve": "node ./build",
-    "start": "yarn build && yarn serve"
+    "js:start": "node ./build/scripts/start",
+    "js:seed": "node ./build/scripts/seed",
+    "start": "yarn build && yarn js:start",
+    "seed": "yarn build && yarn js:seed"
   },
   "dependencies": {
     "@sequelize/core": "^7.0.0-alpha.10",
